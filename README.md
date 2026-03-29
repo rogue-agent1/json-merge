@@ -1,13 +1,17 @@
-# json-merge
+# json_merge
 
-JSON Merge Patch (RFC 7396). Zero-dependency, single-file Python CLI.
+Deep JSON merge with conflict resolution
+
+Single-file, zero-dependency Python CLI tool.
 
 ## Usage
 
 ```bash
-python3 json_merge.py --help
+python json_merge.py --help
 ```
 
-## License
+## Test
 
-MIT
+```bash
+python -c "import json_merge; json_merge.test()"
+```
